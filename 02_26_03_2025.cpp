@@ -333,6 +333,9 @@ Sebebi Referans olmayan overload kabul etmiyor !!
 2 - Sağ taraf ve sol taraf için farklı kodları kullanılması örneğin veri elemanını get functionlar için
 önemli olabiliyor.
 
+Reference Qualifiers lar ile ilgili aşağıdaki yazı okunabilir.
+https://andreasfertig.com/blog/2022/07/the-power-of-ref-qualifiers/
+
 */
 
 
