@@ -67,7 +67,7 @@ int main()
 
 */
 
-/* overloading örneğinde kaldık.
+/* 
 #include <iostream>
 
 using namespace std;
