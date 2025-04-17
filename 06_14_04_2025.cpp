@@ -2,7 +2,7 @@
 *  Dersin ilk bölümlerinde forward fonksiyon şablonunun sağ taraf referansı olan overloadı için neden static_cast ifadesi
 *  kullanılmış bunun üzerinde duruldu. İlk olarak Necati hoca static_assert ile ilgili çok kısa sözel bilgiler verdi.
 *  static_assert Modern C++ ile hayatımız girmiştir ve bir anahtar kelimedir. İlk argumanı constant bir expression olması
-*  gerekmektedir. Expression compile time da non-zero olarak ele alınırsa derleme işleminde bir hata olmayacaktır. Fakat 
+*  gerekmektedir. Expression compile time da zero olarak ele alınırsa derleme işleminde bir hata olmayacaktır. Fakat 
 *  compile time da değerlendirilen ifade true bir değer olarak değerlendirilirse derleme işlemi yapılamayacaktır. İkinci arguman
 *  zorunlu değil fakat eğer istersek ikinci argumana bir yazı geçebiliriz ve compiler hata mesajında ikinci argumana geçtiğimiz
 *  yazıyı gösterir.
