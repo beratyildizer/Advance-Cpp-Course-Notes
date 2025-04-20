@@ -1,8 +1,8 @@
-﻿/*
+/*
 *  Dersin ilk bölümlerinde forward fonksiyon şablonunun sağ taraf referansı olan overloadı için neden static_cast ifadesi
 *  kullanılmış bunun üzerinde duruldu. İlk olarak Necati hoca static_assert ile ilgili çok kısa sözel bilgiler verdi.
 *  static_assert Modern C++ ile hayatımız girmiştir ve bir anahtar kelimedir. İlk argumanı constant bir expression olması
-*  gerekmektedir. Expression compile time da zero olarak ele alınırsa derleme işleminde bir hata olmayacaktır. Fakat 
+*  gerekmektedir. Expression compile time da non-zero olarak ele alınırsa derleme işleminde bir hata olmayacaktır. Fakat 
 *  compile time da değerlendirilen ifade true bir değer olarak değerlendirilirse derleme işlemi yapılamayacaktır. İkinci arguman
 *  zorunlu değil fakat eğer istersek ikinci argumana bir yazı geçebiliriz ve compiler hata mesajında ikinci argumana geçtiğimiz
 *  yazıyı gösterir.
@@ -455,7 +455,7 @@ int main() {
 /*
 *  Şimdi tekrardan buraya yani decltype(auto) ya nereden geldik oraya dönelim. Amacımız neydi; bir fonksiyon var, başka fonksiyonu
 *  çağırıyor. Çağırdığı fonksiyonun geri dönüş value categorisinide koruyarak geri dönmek istiyor. İşte burada decltype(auto) yu 
-*  kullanabiliriz. Aşağıda örneği verilmiştir.
+*  kullanabiliriz. Aşağıda örneği verilmiştir. Buna perfect returning denmektedir.
 
 template<typename T>
 decltype(auto) foo(T&& t)
@@ -502,6 +502,13 @@ decltype(auto) call(F&& f, Args&& ...args)
 	// some code here
 
 	return return std::forward<decltype(ret)>(ret);
+
+Cevap:
+Hayır.
+Bu durumda çağrılan f fonksiyonunun geri dönüş türü referans olmayan bir tür ise, call fonksiyonunun geri dönüş türü sağ 
+taraf referans türü olur.
+Yanlış olmakla birlikte tanımsız davranış olur. Çünkü geri dönüş türü referans türü olan bir fonksiyon otomatik ömürlü bir 
+nesne döndürmüş oluyor.
 }
 
 */
