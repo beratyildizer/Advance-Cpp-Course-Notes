@@ -4,6 +4,7 @@ These notes are based on my personal understanding of the lectures.
 There might be inaccuracies or missing information, especially since I follow the classes online and sometimes can't take note everything during the sessions.
 Let me know if you notice any wrong information.
 
+Contents
 1. Value Category, Decltype, Move in Algorithm vs Move in Utility
 2. Move, Universal Reference, Remove_Reference, Reference Collapsing, Special Member Functions, Reference Qualifiers
 3. Reference Qualifiers, Iterator Adaptor, Move_Iterator, Exception Handling, Promise no less, requires no more
