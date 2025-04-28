@@ -3,3 +3,12 @@ This repository includes Advance C++ Course Notes organized by Necati Ergin. (ht
 These notes are based on my personal understanding of the lectures.
 There might be inaccuracies or missing information, especially since I follow the classes online and sometimes can't take note everything during the sessions.
 Let me know if you notice any wrong information.
+
+1. Value Category, Decltype, Move in Algorithm vs Move in Utility
+2. Move, Universal Reference, Remove_Reference, Reference Collapsing, Special Member Functions, Reference Qualifiers
+3. Reference Qualifiers, Iterator Adaptor, Move_Iterator, Exception Handling, Promise no less, requires no more
+4. Exception Handling, Copy Ellision, RVO and NRVO, Move from State, Small String Optimization,
+5. Perfect Forwarding, std::forward, type_traits,
+6. Perfect Forwarding, Abbreviated Template, SFINAE, Range Based For Loop, decltype(auto), Perfect Returning, Deferred Perfect Returning
+7. Perfect Returning in Lambda, decltype(auto), Tag Class, User Defined Literals,
+8. User Defined Literals, string_view, optional   
