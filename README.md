@@ -12,4 +12,8 @@ Contents
 5. Perfect Forwarding, std::forward, type_traits,
 6. Perfect Forwarding, Abbreviated Template, SFINAE, Range Based For Loop, decltype(auto), Perfect Returning, Deferred Perfect Returning
 7. Perfect Returning in Lambda, decltype(auto), Tag Class, User Defined Literals,
-8. User Defined Literals, string_view, optional   
+8. User Defined Literals, string_view, optional
+9. Optional
+10. Variant, Any
+11. Any, Lambda İfadeleri
+12. Lambda İfadeleri 
