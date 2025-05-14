@@ -14,6 +14,6 @@ Contents
 7. Perfect Returning in Lambda, decltype(auto), Tag Class, User Defined Literals,
 8. User Defined Literals, string_view, optional
 9. Optional
-10. Variant, Any
+10. Variant, Visit ve Overloader Idıomu, Any
 11. Any, Lambda İfadeleri
 12. Lambda İfadeleri 
