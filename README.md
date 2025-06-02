@@ -18,6 +18,6 @@ Contents
 11. Any, Lambda İfadeleri
 12. Lambda İfadeleri
 13. Lambda İfadeleri, Lambda Idıomları, Positive Lambda Idiomu (Dersin belli bir bölümünden sonra not alamadım.)
-14. Templated Lambda, STL Algoritmaları (algo1.txt ve algo2.txt dosyaları eklenecek)
-15. STL Algoritmaları (algo1.txt ve algo2.txt dosyaları eklenecek)
+14. Templated Lambda, STL Algoritmaları (look at the algorithms file)
+15. STL Algoritmaları (look at the algorithms file)
 
