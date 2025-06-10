@@ -23,3 +23,4 @@ Contents
 16. I did not join the class.
 17. STL Algoritmaları (look at the algorithms file), spaceship operatoru
 18. Spaceship operatoru, format kütüphanesine giriş.
+19. Format kütüphanesi, format/format_to_n/formatted_size/format_to fonksiyonları
